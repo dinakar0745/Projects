@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Virgo",
+            "username": "root",
+            "password": "Welcome987*",
+            "database": "Virgo"
+        }
+    ],
+    "git.ignoreLimitWarning": true
+}

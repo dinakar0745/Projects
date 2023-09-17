@@ -1,0 +1,132 @@
+/* Shared styles for both desktop and mobile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.half {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.left {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.half.right h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Adjust font weight as needed */
+    font-size: 28px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+.half.right p {
+    font-family: Arial, sans-serif; /* Use default font for other text */
+    font-size: 18px;
+}
+
+.half.right h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Adjust font weight as needed */
+    font-size: 35px;
+}
+
+.left img {
+    background-blend-mode: color;
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    background-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact-button {
+    margin-left: auto;
+}
+
+.contact-button a {
+    display: inline-block;
+    background-color: #fc3b61;
+    color: #f9f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-button a:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .half {
+        width: 100%;
+    }
+
+    .left {
+        background-color: #ffffff;
+    }
+
+    .right {
+        background-color: #f9f9f9;
+    }
+
+    .right h2,
+    /* .right p {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, transform 1s;
+    } */
+
+    .right.animate h2,
+    .right.animate p {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
