@@ -127,6 +127,7 @@ footer {
     .right.animate p {
         opacity: 1;
         transform: translateY(0);
+        transform: translateX(0);
     }
     
 }
