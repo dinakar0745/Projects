@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Reminders</title>
+</head>
+<body>
+    <h1>Medicine Reminders</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <label for="medicine_name">Medicine Name:</label>
+        <input type="text" name="medicine_name" required><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" required><br>
+
+        <label for="reminder_datetime">Reminder Date and Time:</label>
+        <input type="datetime-local" name="reminder_datetime" required><br>
+
+        <button type="submit">Add Reminder</button>
+    </form>
+
+    <h2>Your Reminders:</h2>
+    <ul>
+        {% for reminder in reminders %}
+            <li>{{ reminder.medicine_name }} ({{ reminder.quantity }}) - {{ reminder.reminder_datetime }}</li>
+        {% empty %}
+            <li>No reminders added yet.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
