@@ -51,7 +51,7 @@ def is_ip_reachable(ip_address):
 # Function to get open ports using nmap
 def get_open_ports(ip_address):
     scanner = nmap.PortScanner()
-    scanner.scan(ip_address, arguments='-p 1-1000 --open')
+    scanner.scan(ip_address, arguments='-O -sS -p 1-1000 --open')
     open_ports = [port for port in scanner[ip_address]['tcp'] if scanner[ip_address]['tcp'][port]['state'] == 'open']
     return open_ports
 

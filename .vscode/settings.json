@@ -15,5 +15,6 @@
             "database": "Virgo"
         }
     ],
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "cmake.sourceDirectory": "C:/Users/Dinak/Desktop/Projects/expence/expence/linux"
 }
