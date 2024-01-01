@@ -10,7 +10,7 @@ class IntercomScreen extends StatefulWidget {
   final String token;
   final int channelId;
 
-  IntercomScreen({required this.appId, required this.token, required this.channelId});
+  const IntercomScreen({super.key, required this.appId, required this.token, required this.channelId});
 
   @override
   _IntercomScreenState createState() => _IntercomScreenState();
@@ -56,7 +56,7 @@ class _IntercomScreenState extends State<IntercomScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Intercom'),
+        title: const Text('Intercom'),
       ),
       body: Center(
         child: Column(
@@ -74,7 +74,7 @@ class _IntercomScreenState extends State<IntercomScreen> {
                 ],
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             // ElevatedButton(
             //   onPressed: () {
             //     _engine.muteLocalAudioStream(!_engine.isLocalAudioMuted);
@@ -95,6 +95,8 @@ class MyApp extends StatelessWidget {
   final String token = 'YOUR_TOKEN';
   final int channelId = 123;
 
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -102,11 +104,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: IntercomScreen(appId: appId, token: token, channelId: channelId),
+      home: const IntercomScreen(appId: appId, token: token, channelId: channelId),
     );
   }
 }
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }

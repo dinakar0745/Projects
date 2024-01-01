@@ -13,7 +13,7 @@ class ExpenseSummary extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Consumer<ExpenseData>(
-      builder: (context, value, child) => SizedBox(
+      builder: (context, value, child) => const SizedBox(
         height: 200,
         child: MyBarGraph(
           maxY: 100,

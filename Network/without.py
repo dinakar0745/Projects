@@ -1,32 +1,36 @@
-import socket
+import subprocess
+import smtplib
+from email.mime.text import MIMEText
 
-def get_open_ports(ip_address):
-    open_ports = []
-    for port in range(50, 500):  # ports range
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(0.5)
-        result = sock.connect_ex((ip_address, port))
-        print("Testing Port:", port)
-        if result == 0:
-            open_ports.append(port)
-        sock.close()
-    return open_ports
+def check_open_ports():
 
-def get_protocol_banner(ip_address, port):
-    try:
-        with socket.create_connection((ip_address, port), timeout=2) as sock:
-            banner = sock.recv(1024).decode('utf-8').strip()
-            return banner
-    except (socket.error, socket.timeout):
-        return None
+    target = '14.192.0.9'
+
+    result = subprocess.run(['netstat', '-lnt'], capture_output=True, text=True)
+    open_ports_info = result.stdout
+
+    sender_email = 'dinakara.pathakota@gmail.com'
+    sender_password = 'lqus scgq ipzr kekt'  
+
+    recipient_email = 'dinakar.pathakota@gmail.com'
+
+
+    subject = 'Open Ports Information'
+    body = f'Open ports on {target}:\n\n{open_ports_info}'
+
+    message = MIMEText(body)
+    message['Subject'] = subject
+    message['From'] = sender_email
+    message['To'] = recipient_email
+
+    with smtplib.SMTP('smtp.gmail.com', 587) as server:
+        server.starttls()
+        server.login(sender_email, sender_password)
+        server.sendmail(sender_email, recipient_email, message.as_string())
 
 if __name__ == "__main__":
-    target_ip = '14.192.0.9'
+    check_open_ports()
 
-    open_ports = get_open_ports(target_ip)
-    print(f"Open Ports: {open_ports}")
-
-    print("\nPort Protocol Banners:")
-    for port in open_ports:
-        banner = get_protocol_banner(target_ip, port)
-        print(f"  Port {port}: {banner if banner else 'No banner available'}")
+    import os
+    if os.fork():
+        os._exit(0)

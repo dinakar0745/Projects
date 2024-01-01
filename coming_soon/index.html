@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Soon</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #bbc4d9;
+    }
+
+    .logo {
+        margin-top: 2rem;
+        align-content: space-between;
+    }
+
+    .container {
+        margin-top: 5rem;
+        max-width: 600px;
+        padding: 2rem;
+        /* background-color: #fff; */
+        border-radius: 5px;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        text-align: center; /* Center-align the content within the container */
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    .email-input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      margin-bottom: 1rem;
+      box-sizing: border-box; /* Include padding and border in the width */
+    }
+
+    .submit-button {
+      width: 100%; /* Make the button take up the full width */
+      padding: 0.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #333;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="/logo.png" alt="Logo">
+  </div>
+  <div class="container">
+    <h1>Landing Soon</h1>
+    <p>In the very near future, we'll be launching in the UK. Add your email below and be among the first to know when we officially take flight.</p>
+    <input type="email" class="email-input" placeholder="Enter Your Email Address">
+    <button class="submit-button">SUBMIT</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.querySelector('.container');
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const emailInput = document.querySelector('.email-input');
+        const email = emailInput.value.trim();
+
+        // Validate the email (add your own validation if needed)
+
+        // Send the email to the server
+        const response = await fetch('/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email }),
+        });
+
+        // Handle the server response (you can customize this part)
+        const result = await response.text();
+        alert(result);
+      });
+    });
+  </script>
+  
+</body>
+</html>

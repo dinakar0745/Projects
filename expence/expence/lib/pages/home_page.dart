@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:expence/datetime/date_time_helper.dart';
 import 'package:expence/models/expense_item.dart';
 import 'package:expence/data/expense_data.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     showDialog(
       context: context,
       builder: (context) =>AlertDialog(
-        title: Text('Add new Expense'),
+        title: const Text('Add new Expense'),
         content: Column(
           mainAxisSize:MainAxisSize.min,
           children: [
@@ -44,13 +43,13 @@ class _HomePageState extends State<HomePage> {
           //save button
           MaterialButton(
             onPressed: save,
-            child: Text('Save'),
+            child: const Text('Save'),
           ),
 
           //cancel button
           MaterialButton(
             onPressed: cancel,
-            child: Text('Cancel'),
+            child: const Text('Cancel'),
           ),
         ],
       ),
@@ -89,7 +88,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor:Colors.grey[300],
         floatingActionButton: FloatingActionButton(
           onPressed: addNewExpense,
-          child:Icon(Icons.add),
+          child:const Icon(Icons.add),
         ),
         body: ListView(children: [
           //weekly summary
