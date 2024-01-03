@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
-def send_email(roll_number, recipient_email):
+def send_email(roll_number, recipient_email, Cert_ID):
     # Email configuration
     sender_email = 'dinakar.pathakota@gmail.com'
     sender_password = 'mwvm dfsx qxal wzze'
@@ -21,7 +21,7 @@ def send_email(roll_number, recipient_email):
     message.attach(MIMEText(body, 'plain'))
 
     # Attach the PDF file
-    pdf_filename = f'{roll_number}.pdf'
+    pdf_filename = f'{Cert_ID}.pdf'
     with open(pdf_filename, 'rb') as pdf_file:
         pdf_attachment = MIMEApplication(pdf_file.read(), _subtype="pdf")
         pdf_attachment.add_header('Content-Disposition', f'attachment; filename={pdf_filename}')
@@ -41,8 +41,9 @@ if __name__ == "__main__":
     for index, row in df.iterrows():
         roll_number_to_send = str(row['Roll Number'])
         recipient_email_address = roll_number_to_send + '@klh.edu.in'
+        Cert_ID = str(row['Certificate ID'])
         try:
-            send_email(roll_number_to_send, recipient_email_address)
+            send_email(roll_number_to_send, recipient_email_address, Cert_ID)
             print(f'Email sent successfully to {recipient_email_address} for roll number {roll_number_to_send}.')
         except Exception as e:
             print(f'Error: {e}')
