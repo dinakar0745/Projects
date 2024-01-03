@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username PDF Generator</title>
+    <!-- Include the jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+    <h1>Username PDF Generator</h1>
+
+    <form id="usernameForm">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="button" onclick="generatePDF()">Generate PDF</button>
+    </form>
+
+    <script>
+        function generatePDF() {
+            // Get the username input value
+            var username = document.getElementById("username").value;
+
+            // Create a new jsPDF instance
+            var pdf = new jsPDF();
+
+            // Add content to the PDF
+            pdf.text(`Username: ${username}`, 20, 30);
+
+            // Save the PDF with a specific name
+            pdf.save("username.pdf");
+        }
+    </script>
+
+</body>
+</html>
