@@ -4,12 +4,12 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
-def send_email(roll_number, recipient_email, Cert_ID):
+def send_email(roll_number, recipient_email):
     # Email configuration
-    sender_email = 'dinakar.pathakota@gmail.com'
-    sender_password = 'mwvm dfsx qxal wzze'
+    sender_email = 'sac@klh.edu.in'
+    sender_password = 'qnve lqsx puxn hkur'
     subject = 'SIL2 Certificate'
-    body = f'Dear {roll_number},\n\nPlease find the attached PDF file, which is the Certificate for SIL2 Activity.\n\nBest regards,\nSAC'
+    body = f'Dear {roll_number},\n\nPlease find the attached PDF file, which is the Certificate for SIL2 Activity.\n\nBest regards,\nSAC,\nKLH University'
 
     # Create a MIME multipart message
     message = MIMEMultipart()
@@ -21,13 +21,13 @@ def send_email(roll_number, recipient_email, Cert_ID):
     message.attach(MIMEText(body, 'plain'))
 
     # Attach the PDF file
-    pdf_filename = f'{Cert_ID}.pdf'
+    pdf_filename = f'{roll_number}.pdf'
     with open(pdf_filename, 'rb') as pdf_file:
         pdf_attachment = MIMEApplication(pdf_file.read(), _subtype="pdf")
         pdf_attachment.add_header('Content-Disposition', f'attachment; filename={pdf_filename}')
         message.attach(pdf_attachment)
 
-    # Connect to the SMTP server (in this case, Gmail's SMTP server)
+    # Connect to the SMTP server (in this case, Gmail's SMTPz server)
     with smtplib.SMTP('smtp.gmail.com', 587) as server:
         server.starttls()
         server.login(sender_email, sender_password)
@@ -35,15 +35,14 @@ def send_email(roll_number, recipient_email, Cert_ID):
 
 if __name__ == "__main__":
     # Read roll numbers from an Excel sheet
-    excel_file = './Book1.xlsx'  # Replace with the actual path to your Excel file
+    excel_file = './FRC CSEA.xlsx'  # Replace with the actual path to your Excel file
     df = pd.read_excel(excel_file)
 
     for index, row in df.iterrows():
-        roll_number_to_send = str(row['Roll Number'])
+        roll_number_to_send = str(row['UNIVERSITY ID'])
         recipient_email_address = roll_number_to_send + '@klh.edu.in'
-        Cert_ID = str(row['Certificate ID'])
         try:
-            send_email(roll_number_to_send, recipient_email_address, Cert_ID)
+            send_email(roll_number_to_send, recipient_email_address)
             print(f'Email sent successfully to {recipient_email_address} for roll number {roll_number_to_send}.')
         except Exception as e:
             print(f'Error: {e}')
