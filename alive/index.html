@@ -56,24 +56,24 @@
     </div>
 
     <script>
-      // Set your birthdate
-      var birthDate = new Date("Apr 7, 2005 07:30:45");
+        // Set your birthdate
+        var birthDate = new Date("Apr 7, 2005 07:30:45");
 
-      // Update the time since birth every 1 second
-      var updateInfo = setInterval(function() {
+        // Update the time since birth every 1 second
+        var updateInfo = setInterval(function() {
+            
+            // Get today's date
+            var today = new Date();
 
-        // Get today's date
-        var today = new Date();
+            // Calculate the difference in milliseconds
+            var timeSinceBirthInMilliseconds = today - birthDate;
 
-        // Calculate the difference in milliseconds
-        var timeSinceBirthInMilliseconds = today - birthDate;
+            // Convert milliseconds to seconds
+            var totalSeconds = Math.floor(timeSinceBirthInMilliseconds / 1000);
 
-        // Convert milliseconds to seconds
-        var totalSeconds = Math.floor(timeSinceBirthInMilliseconds / 1000);
-        
-        // Display the time since birth in seconds
-        document.getElementById("age").innerHTML = "ALIVE";
-        document.getElementById("demo").innerHTML =  totalSeconds + " SEC'S";
+            // Display the time since birth in seconds
+            document.getElementById("age").innerHTML = "ALIVE!!!";
+            document.getElementById("demo").innerHTML =  totalSeconds + " SEC'S";
 
       }, 1000);
     </script>
