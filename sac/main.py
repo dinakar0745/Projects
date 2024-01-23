@@ -9,7 +9,7 @@ def send_email(roll_number, recipient_email):
     sender_email = 'sac@klh.edu.in'
     sender_password = 'qnve lqsx puxn hkur'
     subject = 'SIL2 Certificate'
-    body = f'Dear {roll_number},\n\nPlease find the attached PDF file, which is the Certificate for SIL2 Activity.\n\nBest regards,\nSAC,\nKLH University'
+    body = f'Dear {roll_number},\n\nPlease find the attached PDF file, which is the Certificate for SIL2 Activity (ESO).\n\nBest regards,\nSAC,\nKLH University'
 
     # Create a MIME multipart message
     message = MIMEMultipart()
@@ -27,7 +27,7 @@ def send_email(roll_number, recipient_email):
         pdf_attachment.add_header('Content-Disposition', f'attachment; filename={pdf_filename}')
         message.attach(pdf_attachment)
 
-    # Connect to the SMTP server (in this case, Gmail's SMTPz server)
+    # Connect to the SMTP server
     with smtplib.SMTP('smtp.gmail.com', 587) as server:
         server.starttls()
         server.login(sender_email, sender_password)
@@ -35,7 +35,7 @@ def send_email(roll_number, recipient_email):
 
 if __name__ == "__main__":
     # Read roll numbers from an Excel sheet
-    excel_file = './FRC CSEA.xlsx'  # Replace with the actual path to your Excel file
+    excel_file = './Village - ESO.xlsx'  # Replace with the actual path to your Excel file
     df = pd.read_excel(excel_file)
 
     for index, row in df.iterrows():
