@@ -1,0 +1,17 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Viewer</title>
+</head>
+<body>
+    <h1>Welcome to the Certificate Viewer</h1>
+    <form action="/certificates" method="get">
+        <label for="rollNumber">Enter Roll Number:</label>
+        <input type="text" id="rollNumber" name="rollNumber" required>
+        <button type="submit">Show Certificates</button>
+    </form>
+</body>
+</html>

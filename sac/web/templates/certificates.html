@@ -1,0 +1,17 @@
+<!-- templates/certificates.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates for Roll Number {{ roll_number }}</title>
+</head>
+<body>
+    <h2>Certificates for Roll Number {{ roll_number }}</h2>
+    <ul>
+        {% for certificate_path in certificate_paths %}
+            <li><a href="/download/{{ certificate_path }}">{{ certificate_path }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

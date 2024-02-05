@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roll Number Search</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <h1>Roll Number Search</h1>
+
+  <label for="rollNumber">Enter University ID:</label>
+  <input type="text" id="universityID">
+  <button onclick="searchAndDownload()">Search and Download</button>
+
+  <script>
+    var rollNumberMap; // Store the roll number and file name mapping globally
+
+    // Simulate fetching Excel file and initializing the rollNumberMap
+    function initializeRollNumberMap() {
+      // Replace 'path/to/your/excel/file.xlsx' with the actual path to your Excel file
+      var excelFilePath = 'Village - ESO.xlsx';
+
+      // Fetch the Excel file using SheetJS
+      $.get(excelFilePath, function (data) {
+        var workbook = XLSX.read(data, { type: 'binary' });
+        var sheetName = workbook.SheetNames[0];
+        var worksheet = workbook.Sheets[sheetName];
+
+        // Convert the worksheet to a JSON object
+        rollNumberMap = XLSX.utils.sheet_to_json(worksheet);
+      });
+    }
+
+    function searchAndDownload() {
+      var universityID = document.getElementById('UNIVERSITY ID').value;
+
+      if (!rollNumberMap) {
+        alert('Excel file not loaded. Please try again.');
+        return;
+      }
+
+      // Find the file name for the given university ID
+      var matchingRecord = rollNumberMap.find(function (record) {
+        return record['University ID'] == universityID;
+      });
+
+      if (matchingRecord) {
+        downloadFile(matchingRecord['File Name']);
+      } else {
+        alert('File not found for the given university ID.');
+      }
+    }
+
+    function downloadFile(fileName) {
+      // Create a temporary link to trigger the download
+      var link = document.createElement('a');
+      link.href = './certs/' + fileName; // Replace with the actual path to your files
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Initialize rollNumberMap when the page loads
+    initializeRollNumberMap();
+  </script>
+
+</body>
+</html>

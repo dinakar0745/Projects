@@ -1,0 +1,323 @@
+2024-01-29 14:26:28,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-29 14:26:28,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-29 14:26:28,611 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:26:28,965 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:26:28,974 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:26:36,550 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:26:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:26:36,659 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:26:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:26:36,659 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:26:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:26:49,392 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:26:49] "POST /create_folder_and_upload HTTP/1.1" 200 -
+2024-01-29 14:27:10,182 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-29 14:27:10,182 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-29 14:27:10,186 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:27:10,546 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:27:10,562 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:31:08,488 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-29 14:31:08,488 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-29 14:31:08,488 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:31:08,837 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:31:08,852 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:31:11,733 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:11] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:31:11,839 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:31:11,847 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:11] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,237 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:31:13,273 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,280 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,594 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:31:13,623 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,628 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,801 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:31:13,838 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,839 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:31:13,980 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:31:14,028 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:31:14,028 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:31:14] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:32,393 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:32] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:32,428 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:32] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:32,437 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:33:33,718 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:33] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:33,765 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:33:33,766 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:33] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,197 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:34,235 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,235 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,382 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:34,423 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,427 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,543 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:34,611 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,616 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,688 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:33:34,734 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:33:34,738 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:33:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:11,888 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:11] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:34:11,924 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:11] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:11,934 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:34:12,632 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:34:12,667 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:34:12,670 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:12,843 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:34:12,879 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:34:12,881 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:12] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:13,028 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:34:13,085 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:34:13,085 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:13,195 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:34:13,262 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:34:13,262 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:34:26,989 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:34:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:35:51,411 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:35:51] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:35:51,455 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:35:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:35:51,460 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:35:51] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:30,717 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:30] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:30,755 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:30] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:30,761 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:36:31,262 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:31,295 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,301 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,459 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:31,492 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,492 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,600 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:31,633 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,633 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,722 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:31,766 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,768 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,964 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:31,996 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:31,999 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,085 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:36,121 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:36:36,125 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,449 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:36,482 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,487 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,624 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:36,681 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,683 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,754 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:36,795 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,800 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,878 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:36,925 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:36,926 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:36] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:47,811 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:47] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:47,848 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:47] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:47,854 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:36:48,227 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:48,270 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:48,274 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:48,572 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:48,601 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:48,607 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:48] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:36:49,225 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:49] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:36:49,252 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:36:49,260 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:36:49] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:37:44,909 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:44] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:37:44,955 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:37:44,960 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:44] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:37:48,527 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:48] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:37:48,565 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:48] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:37:48,565 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:37:53,893 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:53] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:37:53,928 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:53] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:37:53,937 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:37:55,209 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:55] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:37:55,242 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:37:55,243 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:37:55] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:00,707 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:00] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:00,735 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:00,740 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:00] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:01,482 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:01,516 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:01,523 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:38:01,823 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:01,850 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:01,853 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:02,085 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:02,118 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:02,122 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:02,368 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:02,401 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:02,404 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:02] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:05,224 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:05,258 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:38:05,261 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:05,886 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:05,928 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:05,929 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:05] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:06,069 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:06] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:06,123 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:06,129 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:06] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:09,240 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:09] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:09,267 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:09] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:09,276 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:38:42,930 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:42] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:42,969 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:42] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:42,974 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:38:43,161 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:43,202 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:43,205 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:43,362 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:38:43,406 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:38:43,406 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:43] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:38:44,787 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:38:44] "[31m[1mPOST /logout HTTP/1.1[0m" 405 -
+2024-01-29 14:39:12,055 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:39:12,121 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:39:12,544 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:39:12,554 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:39:13,155 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:13] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-01-29 14:39:13,171 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:13] "GET / HTTP/1.1" 200 -
+2024-01-29 14:39:13,294 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:39:13,294 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:39:40,444 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:40] "GET / HTTP/1.1" 200 -
+2024-01-29 14:39:40,481 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:39:40,484 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:39:46,451 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:46] "[32mGET /admin/dashboard HTTP/1.1[0m" 302 -
+2024-01-29 14:39:51,524 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:51] "[32mGET /admin/dashboard HTTP/1.1[0m" 302 -
+2024-01-29 14:39:51,536 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:51] "GET / HTTP/1.1" 200 -
+2024-01-29 14:39:51,639 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 14:39:51,639 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:39:51] "GET /static/logo.png HTTP/1.1" 200 -
+2024-01-29 14:40:10,768 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:10] "GET / HTTP/1.1" 200 -
+2024-01-29 14:40:10,810 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:40:10,811 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:10] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:40:10,944 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:40:10,987 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:40:11,386 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:40:11,386 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:40:11,416 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:11] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-29 14:40:11,416 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:11] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-29 14:40:11,468 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:11] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-29 14:40:14,252 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:14] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:15,910 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:15] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:16,236 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:16] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:20,758 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:20] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:21,104 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:21] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:21,438 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:21] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-01-29 14:40:21,486 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:40:21,524 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:40:21,902 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:40:21,920 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:40:21,936 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:21] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:40:22,026 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:22] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:40:22,029 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:40:44,151 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:44] "POST /login HTTP/1.1" 200 -
+2024-01-29 14:40:44,185 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:40:44,185 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:44] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:40:52,611 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-01-29 14:40:52,625 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:52] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:40:52,654 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:52] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:40:52,654 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:40:54,091 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:54] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-01-29 14:40:54,104 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:54] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:40:54,135 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:40:54,135 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:40:54] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:04,217 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:04,264 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:04,670 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:04,678 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:07,710 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:07,756 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:08,128 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:08,137 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:15,105 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:15,202 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:15,206 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:15,752 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:15,784 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:15,784 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:15] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:16,099 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:16,136 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:16,136 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:16,269 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:16,294 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:16,294 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:18,211 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-01-29 14:41:18,217 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:18] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 14:41:18,251 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:18,251 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:18] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:18,959 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:18] "[31m[1mPOST /logout HTTP/1.1[0m" 405 -
+2024-01-29 14:41:23,271 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:23,350 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:23,681 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:23,696 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:27,741 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:27,783 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:28,140 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:28,140 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:29,168 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:29,216 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:29,563 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:29,575 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:33,617 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:33] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-01-29 14:41:33,622 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:33,682 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:34,042 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:34,042 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:34,073 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:34] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:34,153 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:34,153 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:35,684 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:35] "GET /admin HTTP/1.1" 200 -
+2024-01-29 14:41:35,709 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-01-29 14:41:35,709 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 14:41:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 14:41:56,224 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:56,255 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:56,657 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:56,665 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:57,692 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:57,732 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:58,137 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:58,137 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:41:59,170 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:41:59,212 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:41:59,591 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:41:59,591 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:07,664 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:07,706 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:08,134 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:08,149 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:13,204 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:13,238 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:13,629 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:13,637 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:14,659 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:14,705 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:15,089 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:15,099 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:19,139 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:19,182 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:19,595 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:19,603 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:24,650 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:24,699 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:25,048 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:25,048 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:30,102 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:30,141 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:30,551 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:30,564 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:40,643 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:40,690 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:41,059 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:41,074 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 14:42:42,096 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Dinak\\Desktop\\Projects\\sac\\web\\dyna\\app.py', reloading
+2024-01-29 14:42:42,183 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 14:42:42,581 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 14:42:42,590 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 16:25:26,260 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-29 16:25:26,260 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-01-29 16:25:26,273 - werkzeug - INFO -  * Restarting with stat
+2024-01-29 16:25:26,593 - werkzeug - WARNING -  * Debugger is active!
+2024-01-29 16:25:26,609 - werkzeug - INFO -  * Debugger PIN: 943-420-028
+2024-01-29 16:27:11,852 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:11] "GET /admin HTTP/1.1" 200 -
+2024-01-29 16:27:12,036 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:12] "GET /static/logo.png HTTP/1.1" 200 -
+2024-01-29 16:27:12,036 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-01-29 16:27:14,886 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-01-29 16:27:14,893 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:14] "GET /admin/dashboard HTTP/1.1" 200 -
+2024-01-29 16:27:14,943 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:14] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-01-29 16:27:14,943 - werkzeug - INFO - 127.0.0.1 - - [29/Jan/2024 16:27:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
